@@ -1,0 +1,21 @@
+[
+  {
+    "testCaseName": "Get employee data",
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-76",
+    "testId": "getEmployee",
+    "resourceCorrelationId": "newEmployee",
+    "requestData":{
+      "httpMethod": "GET",
+      "baseUri": "http://dummy.restapiexample.com/api/v1",
+      "path": "/employee/{0}",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "responseData": {
+      "httpStatus": 200,
+      "jsonSchemaFileName": "getEmployeeResponseSchema.json",
+      "jsonValuesFileName": "getEmployeeResponseValues.json"
+    }
+  }
+]

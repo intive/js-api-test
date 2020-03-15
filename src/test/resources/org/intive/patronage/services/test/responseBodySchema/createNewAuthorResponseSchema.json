@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "required": [
+    "message",
+    "error",
+    "statusCode"
+  ],
+  "properties": {
+    "message": {
+      "type": "string"
+    },
+    "error": {
+      "type": "string"
+    },
+    "statusCode": {
+      "type": "integer"
+    }
+  }
+}

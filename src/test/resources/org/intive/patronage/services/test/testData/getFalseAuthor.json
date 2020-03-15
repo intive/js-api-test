@@ -1,0 +1,21 @@
+[
+  {
+    "testCaseName": "Get false author data",
+
+    "testId": "getFalseAuthor",
+    "resourceCorrelationId": "falseAuthor",
+    "requestData":{
+      "httpMethod": "GET",
+      "baseUri": "https://patronage20-js-master.herokuapp.com/api/v1",
+      "path": "/authors/6",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "responseData": {
+      "httpStatus": 404,
+      "jsonSchemaFileName": "getFalseAuthorResponseSchema.json",
+      "jsonValuesFileName": "getFalseAuthorResponseValues.json"
+    }
+  }
+]

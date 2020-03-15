@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Dummy REST API tests" configfailurepolicy="continue">
+    <test name="[POST /create] -> Create new employee">
+        <parameter name="CreateEmployeeTest" value="createEmployee.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.CreateEmployeeTest"/>
+        </classes>
+    </test>
+    <test name="[GET /create] -> Get new employee data">
+        <parameter name="GetEmployeeTest" value="getEmployee.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetEmployeeTest"/>
+        </classes>
+    </test>
+</suite>

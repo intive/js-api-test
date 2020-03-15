@@ -1,0 +1,21 @@
+[
+  {
+    "testCaseName": "Get fourth author data",
+
+    "testId": "getFourthAuthor",
+    "resourceCorrelationId": "fourthAuthor",
+    "requestData":{
+      "httpMethod": "GET",
+      "baseUri": "https://patronage20-js-master.herokuapp.com/api/v1",
+      "path": "/authors/4",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "responseData": {
+      "httpStatus": 200,
+      "jsonSchemaFileName": "getAuthorResponseSchema.json",
+      "jsonValuesFileName": "getFourthAuthorResponseValues.json"
+    }
+  }
+]

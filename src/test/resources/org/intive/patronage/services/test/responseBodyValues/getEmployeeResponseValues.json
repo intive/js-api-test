@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "data": {
+    "employee_name": "Jan Kowalski",
+    "employee_salary": "2500",
+    "employee_age": "30",
+    "profile_image": ""
+  }
+}

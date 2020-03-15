@@ -1,0 +1,27 @@
+[
+  {
+    "testCaseName": "Create new employee",
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-75",
+    "testId": "createNewEmployee",
+    "resourceCorrelationId": "newEmployee",
+    "requestData":{
+      "httpMethod": "POST",
+      "baseUri": "http://dummy.restapiexample.com/api/v1",
+      "path": "/create",
+      "headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Accept": "application/json"
+      },
+      "body": {
+        "name": "Jan Kowalski",
+        "salary": "2500",
+        "age": "30"
+      }
+    },
+    "responseData": {
+      "httpStatus": 200,
+      "jsonSchemaFileName": "createNewEmployeeResponseSchema.json",
+      "jsonValuesFileName": "createNewEmployeeResponseValues.json"
+    }
+  }
+]

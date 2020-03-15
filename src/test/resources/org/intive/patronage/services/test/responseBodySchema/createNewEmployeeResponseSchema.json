@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "data"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "name",
+        "salary",
+        "age",
+        "id"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "salary": {
+          "type": "string"
+        },
+        "age": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

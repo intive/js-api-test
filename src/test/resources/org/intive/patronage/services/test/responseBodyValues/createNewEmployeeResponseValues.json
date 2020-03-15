@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "data": {
+    "name": "Jan Kowalski",
+    "salary": "2500",
+    "age": "30"
+  }
+}

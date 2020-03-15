@@ -1,0 +1,39 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "data"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "id",
+        "employee_name",
+        "employee_salary",
+        "employee_age",
+        "profile_image"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "employee_name": {
+          "type": "string"
+        },
+        "employee_salary": {
+          "type": "string"
+        },
+        "employee_age": {
+          "type": "string"
+        },
+        "profile_image": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

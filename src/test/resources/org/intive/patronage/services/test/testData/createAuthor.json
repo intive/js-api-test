@@ -1,0 +1,27 @@
+[
+  {
+    "testCaseName": "Create new author",
+
+    "testId": "createNewAuthor",
+    "resourceCorrelationId": "newAuthor",
+    "requestData":{
+      "httpMethod": "POST",
+      "baseUri": "https://patronage20-js-master.herokuapp.com/api/v1",
+      "path": "/authors/6",
+      "headers": {
+        "Content-Type": "application/json;charset=UTF-8",
+        "Accept": "application/json"
+      },
+      "body": {
+        "name": "Ania",
+        "github": "https://github.com/ania",
+        "avatar": "avatar"
+      }
+    },
+    "responseData": {
+      "httpStatus": 404,
+      "jsonSchemaFileName": "createNewAuthorResponseSchema.json",
+      "jsonValuesFileName": "createNewAuthorResponseValues.json"
+    }
+  }
+]

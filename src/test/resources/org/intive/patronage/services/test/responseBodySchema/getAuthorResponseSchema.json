@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "github",
+    "avatar"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Authors API tests" configfailurepolicy="continue">
+    <test name="[POST /authors/6] -> Create new author">
+        <parameter name="CreateAuthorTest" value="createAuthor.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.CreateAuthorTest"/>
+        </classes>
+    </test>
+    <test name="[GET /authors/1] -> Get first author data">
+        <parameter name="GetAuthorTest" value="getFirstAuthor.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
+    <test name="[GET /authors/2] -> Get second author data">
+        <parameter name="GetAuthorTest" value="getSecondAuthor.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
+    <test name="[GET /authors/3] -> Get third author data">
+        <parameter name="GetAuthorTest" value="getThirdAuthor.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
+    <test name="[GET /authors/4] -> Get fourth author data">
+        <parameter name="GetAuthorTest" value="getFourthAuthor.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
+    <test name="[GET /authors/5] -> Get fifth author data">
+        <parameter name="GetAuthorTest" value="getFifthAuthor.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
+    <test name="[GET /authors] -> Get all authors list data">
+        <parameter name="GetAuthorTest" value="getAllAuthorsList.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
+    <test name="[GET /authors/6] -> Get false author data">
+        <parameter name="GetAuthorTest" value="getFalseAuthor.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
+</suite>

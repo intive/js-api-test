@@ -1,0 +1,21 @@
+[
+  {
+    "testCaseName": "Get second author data",
+
+    "testId": "getSecondAuthor",
+    "resourceCorrelationId": "secondAuthor",
+    "requestData":{
+      "httpMethod": "GET",
+      "baseUri": "https://patronage20-js-master.herokuapp.com/api/v1",
+      "path": "/authors/2",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "responseData": {
+      "httpStatus": 200,
+      "jsonSchemaFileName": "getAuthorResponseSchema.json",
+      "jsonValuesFileName": "getSecondAuthorResponseValues.json"
+    }
+  }
+]

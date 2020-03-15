@@ -1,0 +1,56 @@
+# eclipse
+.settings
+.metadata
+.classpath
+.externalToolBuilders
+.springBeans
+.project
+*.jar
+*.class
+*.swp
+*.gz
+
+bin/
+build/
+log/
+logs/
+target/
+test-output/
+*.orig
+*.*~
+
+# intelij idea
+*.ipr
+*.iws
+*.iml
+*.ids
+.idea
+
+# scripts, logs
+*.bat
+*.log
+
+# maven version-plugin
+.flagged
+pom.xml.versionsBackup
+
+# jrebel
+rebel.xml
+
+# windows craps
+Thumbs.db
+
+# mac craps
+.DS_Store
+*.DS_Store
+
+atlassian-ide-plugin.xml
+
+.pydevproject
+/logs
+/data
+
+git.properties
+
+summary_report.html
+

@@ -1,0 +1,21 @@
+[
+  {
+    "testCaseName": "Get all authors list data",
+
+    "testId": "getAllAuthorsList",
+    "resourceCorrelationId": "allAuthorsList",
+    "requestData":{
+      "httpMethod": "GET",
+      "baseUri": "https://patronage20-js-master.herokuapp.com/api/v1",
+      "path": "/authors",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    "responseData": {
+      "httpStatus": 200,
+      "jsonSchemaFileName": "getAllAuthorsListResponseSchema.json",
+      "jsonValuesFileName": "getAllAuthorsListResponseValues.json"
+    }
+  }
+]
