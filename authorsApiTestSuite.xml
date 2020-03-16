@@ -49,4 +49,10 @@
             <class name="org.intive.patronage.services.test.GetAuthorTest"/>
         </classes>
     </test>
+    <test name="[GET /authors/a] -> Get false author data chosen by letter id">
+        <parameter name="GetAuthorTest" value="getFalseAuthorByLetter.json"/>
+        <classes>
+            <class name="org.intive.patronage.services.test.GetAuthorTest"/>
+        </classes>
+    </test>
 </suite>

@@ -1,7 +1,7 @@
 [
   {
     "testCaseName": "Get all authors list data",
-
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-81",
     "testId": "getAllAuthorsList",
     "resourceCorrelationId": "allAuthorsList",
     "requestData":{

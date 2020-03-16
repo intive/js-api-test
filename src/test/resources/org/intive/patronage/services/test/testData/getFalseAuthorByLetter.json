@@ -1,13 +1,13 @@
 [
   {
-    "testCaseName": "Get false author data",
-    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-83",
-    "testId": "getFalseAuthor",
-    "resourceCorrelationId": "falseAuthor",
+    "testCaseName": "Get false author data chosen by letter id",
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-85",
+    "testId": "getFalseAuthorByLetter",
+    "resourceCorrelationId": "falseAuthorByLetter",
     "requestData":{
       "httpMethod": "GET",
       "baseUri": "https://patronage20-js-master.herokuapp.com/api/v1",
-      "path": "/authors/6",
+      "path": "/authors/a",
       "headers": {
         "Accept": "application/json"
       }

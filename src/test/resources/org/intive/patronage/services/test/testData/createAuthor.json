@@ -1,7 +1,7 @@
 [
   {
     "testCaseName": "Create new author",
-
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-87",
     "testId": "createNewAuthor",
     "resourceCorrelationId": "newAuthor",
     "requestData":{

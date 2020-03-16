@@ -1,7 +1,7 @@
 [
   {
     "testCaseName": "Get fourth author data",
-
+    "jira": "https://tracker.intive.com/jira/browse/PATRON2020-86",
     "testId": "getFourthAuthor",
     "resourceCorrelationId": "fourthAuthor",
     "requestData":{
